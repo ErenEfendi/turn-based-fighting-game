@@ -421,26 +421,26 @@ public class guitestClass {
 			CharacterTemplate enchanter = new CharacterTemplate(3, 10, 10, 10, 20, 10, 5);
 			CharacterTemplate boss = new CharacterTemplate(-1,40, 10, 10, 10, 10, 10);
 			CharacterTemplate lSoul = new CharacterTemplate(-2, 10, 10, 10, 20, 10, 5);
-			Character char1 = new Character("Natalia, Bane of Cookies", 20,caster,new ImageIcon (Toolkit.getDefaultToolkit().getImage(guitestClass.class.getResource("/char1.png"))),new ImageIcon (Toolkit.getDefaultToolkit().getImage(guitestClass.class.getResource("/chardeath1.png"))));
+			Character char1 = new Character("Natalia, Bane of Cookies", 20,caster,new ImageIcon (Toolkit.getDefaultToolkit().getImage(guitestClass.class.getResource("char1.png"))),new ImageIcon (Toolkit.getDefaultToolkit().getImage(guitestClass.class.getResource("chardeath1.png"))));
 			char1.setupMoves(casterActions);
-			Character char2 = new Character("Gary The Magnificent", 20, bruiser,new ImageIcon (Toolkit.getDefaultToolkit().getImage(guitestClass.class.getResource("/char2.png"))),new ImageIcon (Toolkit.getDefaultToolkit().getImage(guitestClass.class.getResource("/chardeath2.png"))));
+			Character char2 = new Character("Gary The Magnificent", 20, bruiser,new ImageIcon (Toolkit.getDefaultToolkit().getImage(guitestClass.class.getResource("char2.png"))),new ImageIcon (Toolkit.getDefaultToolkit().getImage(guitestClass.class.getResource("chardeath2.png"))));
 			char2.setupMoves(knightActions);
 			
-			Character char3 = new Character("Theoden The Not Knight",20, ranger, new ImageIcon (Toolkit.getDefaultToolkit().getImage(guitestClass.class.getResource("/char_4.png"))),new ImageIcon (Toolkit.getDefaultToolkit().getImage(guitestClass.class.getResource("/char4dead.png"))));
+			Character char3 = new Character("Theoden The Not Knight",20, ranger, new ImageIcon (Toolkit.getDefaultToolkit().getImage(guitestClass.class.getResource("char_4.png"))),new ImageIcon (Toolkit.getDefaultToolkit().getImage(guitestClass.class.getResource("char4dead.png"))));
 			char3.setupMoves(rangerActions);
 		
-			Character char4 = new Character("Clara, One Without Shoes",20, enchanter,new ImageIcon (Toolkit.getDefaultToolkit().getImage(guitestClass.class.getResource("/char3.png"))),new ImageIcon (Toolkit.getDefaultToolkit().getImage(guitestClass.class.getResource("/chardeath3.png"))));
+			Character char4 = new Character("Clara, One Without Shoes",20, enchanter,new ImageIcon (Toolkit.getDefaultToolkit().getImage(guitestClass.class.getResource("char3.png"))),new ImageIcon (Toolkit.getDefaultToolkit().getImage(guitestClass.class.getResource("chardeath3.png"))));
 			char4.setupMoves(enchanterActions);
 
 			
 			
-			Character bossChar = new Character("Plum, God of Donuts",40, boss,new ImageIcon (Toolkit.getDefaultToolkit().getImage(guitestClass.class.getResource("/monster.png"))),new ImageIcon (Toolkit.getDefaultToolkit().getImage(guitestClass.class.getResource("/impdead.png"))));
+			Character bossChar = new Character("Plum, God of Donuts",40, boss,new ImageIcon (Toolkit.getDefaultToolkit().getImage(guitestClass.class.getResource("monster.png"))),new ImageIcon (Toolkit.getDefaultToolkit().getImage(guitestClass.class.getResource("impdead.png"))));
 			bossChar.setupMoves(enemyActions);
 
-			Character  lSoul1 = new Character("Lost Soul",20, lSoul,new ImageIcon (Toolkit.getDefaultToolkit().getImage(guitestClass.class.getResource("/lostsoul.png"))),new ImageIcon (Toolkit.getDefaultToolkit().getImage(guitestClass.class.getResource("/lostsoulDead.png"))));
+			Character  lSoul1 = new Character("Lost Soul",20, lSoul,new ImageIcon (Toolkit.getDefaultToolkit().getImage(guitestClass.class.getResource("lostsoul.png"))),new ImageIcon (Toolkit.getDefaultToolkit().getImage(guitestClass.class.getResource("lostsoulDead.png"))));
 			lSoul1.setupMoves(soulactions);
 			
-			Character  lSoul2 = new Character("Lost Soul",20, lSoul,new ImageIcon (Toolkit.getDefaultToolkit().getImage(guitestClass.class.getResource("/lostsoul.png"))),new ImageIcon (Toolkit.getDefaultToolkit().getImage(guitestClass.class.getResource("/lostsoulDead.png"))));
+			Character  lSoul2 = new Character("Lost Soul",20, lSoul,new ImageIcon (Toolkit.getDefaultToolkit().getImage(guitestClass.class.getResource("lostsoul.png"))),new ImageIcon (Toolkit.getDefaultToolkit().getImage(guitestClass.class.getResource("lostsoulDead.png"))));
 			lSoul2.setupMoves(soulactions);
 			
 			
